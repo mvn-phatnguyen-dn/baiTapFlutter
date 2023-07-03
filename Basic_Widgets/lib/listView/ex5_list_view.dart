@@ -1,7 +1,7 @@
 import 'dart:convert';
-import 'package:examle/ex3_list_view_detail_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
+import 'ex3_list_view_detail_screen.dart';
 
 class Ex5ListView extends StatefulWidget {
   const Ex5ListView({super.key});
