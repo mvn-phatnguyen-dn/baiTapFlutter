@@ -1,7 +1,8 @@
 import 'dart:convert';
-import 'package:examle/ex3_list_view_detail_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
+
+import 'ex3_list_view_detail_screen.dart';
 
 class Ex3ListView extends StatefulWidget {
   const Ex3ListView({super.key});
@@ -35,7 +36,7 @@ class _Ex3ListViewState extends State<Ex3ListView> {
       appBar: AppBar(
         title: Text(
           'HOME',
-          style:TextStyle(color: Colors.black),
+          style: TextStyle(color: Colors.black),
         ),
         elevation: 0,
         backgroundColor: Colors.white,
